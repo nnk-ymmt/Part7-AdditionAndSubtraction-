@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9Vr-5X-QRi">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Subtraction-->
+        <scene sceneID="EF1-CN-Frv">
+            <objects>
+                <viewController id="QRS-Qt-wuO" customClass="SubtractionViewController" customModule="Part7_additionAndSubtraction_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0ah-S5-LuD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="7w2-u0-9sf">
+                                <rect key="frame" x="103.5" y="198.5" width="207" height="230.5"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qi8-wx-bfp">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="31"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="QRS-Qt-wuO" id="XgD-Xr-50T"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Teq-Eb-XVF">
+                                        <rect key="frame" x="0.0" y="66" width="207" height="31.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="QRS-Qt-wuO" id="wyI-Qe-utQ"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bot-i4-8Lf">
+                                        <rect key="frame" x="0.0" y="132.5" width="207" height="31.5"/>
+                                        <state key="normal" title="計算する"/>
+                                        <connections>
+                                            <action selector="calculate:" destination="QRS-Qt-wuO" eventType="touchUpInside" id="kzb-sd-IwY"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKM-gf-3V4">
+                                        <rect key="frame" x="0.0" y="199" width="207" height="31.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Qi8-wx-bfp" firstAttribute="width" secondItem="7w2-u0-9sf" secondAttribute="width" id="Doy-uM-4H8"/>
+                                    <constraint firstItem="uKM-gf-3V4" firstAttribute="width" secondItem="7w2-u0-9sf" secondAttribute="width" id="EPI-sL-mBW"/>
+                                    <constraint firstItem="Bot-i4-8Lf" firstAttribute="width" secondItem="7w2-u0-9sf" secondAttribute="width" id="faX-ny-33T"/>
+                                    <constraint firstItem="Teq-Eb-XVF" firstAttribute="width" secondItem="7w2-u0-9sf" secondAttribute="width" id="rAi-nt-IPM"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lpD-F9-UZj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7w2-u0-9sf" firstAttribute="width" secondItem="lpD-F9-UZj" secondAttribute="width" multiplier="0.5" id="4yX-gQ-pxB"/>
+                            <constraint firstItem="7w2-u0-9sf" firstAttribute="height" secondItem="lpD-F9-UZj" secondAttribute="height" multiplier="0.3" id="HMi-5p-JKB"/>
+                            <constraint firstItem="7w2-u0-9sf" firstAttribute="centerY" secondItem="0ah-S5-LuD" secondAttribute="centerY" multiplier="0.7" id="Svb-kO-cGg"/>
+                            <constraint firstItem="7w2-u0-9sf" firstAttribute="centerX" secondItem="0ah-S5-LuD" secondAttribute="centerX" id="mn8-u2-kEp"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Subtraction" id="6P4-sh-1va"/>
+                    <connections>
+                        <outlet property="answerLabel" destination="uKM-gf-3V4" id="oeO-sr-olJ"/>
+                        <outlet property="textField1" destination="Qi8-wx-bfp" id="bp2-zW-p3r"/>
+                        <outlet property="textField2" destination="Teq-Eb-XVF" id="El5-LM-fin"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Hh-gF-b7O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="721" y="121"/>
+        </scene>
+        <!--Addition-->
+        <scene sceneID="BsJ-kj-7U9">
+            <objects>
+                <viewController id="grT-Yz-FFY" customClass="AdditionViewController" customModule="Part7_additionAndSubtraction_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="boK-Jd-Jjz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="4OG-qM-Lje">
+                                <rect key="frame" x="103.5" y="198.5" width="207" height="230.5"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wjs-kn-VzM">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="31"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tI9-ev-q1u">
+                                        <rect key="frame" x="0.0" y="66" width="207" height="31.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AlW-ka-sLw">
+                                        <rect key="frame" x="0.0" y="132.5" width="207" height="31.5"/>
+                                        <state key="normal" title="計算する"/>
+                                        <connections>
+                                            <action selector="calculate:" destination="grT-Yz-FFY" eventType="touchUpInside" id="BhO-T0-hd0"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2Z-DD-ZA2">
+                                        <rect key="frame" x="0.0" y="199" width="207" height="31.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="h2Z-DD-ZA2" firstAttribute="width" secondItem="4OG-qM-Lje" secondAttribute="width" id="7TO-3F-TZX"/>
+                                    <constraint firstItem="wjs-kn-VzM" firstAttribute="width" secondItem="4OG-qM-Lje" secondAttribute="width" id="fkv-uL-1YI"/>
+                                    <constraint firstItem="AlW-ka-sLw" firstAttribute="width" secondItem="4OG-qM-Lje" secondAttribute="width" id="iEa-Hj-cWI"/>
+                                    <constraint firstItem="tI9-ev-q1u" firstAttribute="width" secondItem="4OG-qM-Lje" secondAttribute="width" id="pza-6R-gW0"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JTn-I7-agu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4OG-qM-Lje" firstAttribute="height" secondItem="JTn-I7-agu" secondAttribute="height" multiplier="0.3" id="0WJ-Hu-DfD"/>
+                            <constraint firstItem="4OG-qM-Lje" firstAttribute="centerY" secondItem="boK-Jd-Jjz" secondAttribute="centerY" multiplier="0.7" id="DPF-Mj-jDx"/>
+                            <constraint firstItem="4OG-qM-Lje" firstAttribute="centerX" secondItem="boK-Jd-Jjz" secondAttribute="centerX" id="QYy-9F-crv"/>
+                            <constraint firstItem="4OG-qM-Lje" firstAttribute="width" secondItem="JTn-I7-agu" secondAttribute="width" multiplier="0.5" id="ZzH-ud-lvi"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Addition" id="xBx-Lw-TEe"/>
+                    <connections>
+                        <outlet property="answerLabel" destination="h2Z-DD-ZA2" id="aZG-bc-KUY"/>
+                        <outlet property="textField1" destination="wjs-kn-VzM" id="Kah-V8-gAF"/>
+                        <outlet property="textField2" destination="tI9-ev-q1u" id="8zw-R2-TA3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bYW-gj-pZC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="720" y="-741"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Fnr-DN-ZsS">
+            <objects>
+                <tabBarController id="9Vr-5X-QRi" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GBo-dV-Z73">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="grT-Yz-FFY" kind="relationship" relationship="viewControllers" id="rbf-b0-hvU"/>
+                        <segue destination="QRS-Qt-wuO" kind="relationship" relationship="viewControllers" id="QjE-yM-uNc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tz4-RA-tlo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-168" y="-184"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

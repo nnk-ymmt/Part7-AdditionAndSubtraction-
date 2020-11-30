@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F9923C525752C51005498E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9923C425752C51005498E5 /* AppDelegate.swift */; };
+		5F9923C725752C51005498E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9923C625752C51005498E5 /* SceneDelegate.swift */; };
+		5F9923CC25752C51005498E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9923CA25752C51005498E5 /* Main.storyboard */; };
+		5F9923CE25752C56005498E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9923CD25752C56005498E5 /* Assets.xcassets */; };
+		5F9923D125752C56005498E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9923CF25752C56005498E5 /* LaunchScreen.storyboard */; };
+		5F9923E725752C56005498E5 /* Part7_additionAndSubtraction_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9923E625752C56005498E5 /* Part7_additionAndSubtraction_UITests.swift */; };
+		5F9923F8257532F8005498E5 /* AdditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9923F7257532F8005498E5 /* AdditionViewController.swift */; };
+		5F99240325753312005498E5 /* SubtractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F99240225753312005498E5 /* SubtractionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F9923D825752C56005498E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9923B925752C51005498E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F9923C025752C51005498E5;
+			remoteInfo = "Part7-additionAndSubtraction-";
+		};
+		5F9923E325752C56005498E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9923B925752C51005498E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F9923C025752C51005498E5;
+			remoteInfo = "Part7-additionAndSubtraction-";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F9923C125752C51005498E5 /* Part7-additionAndSubtraction-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Part7-additionAndSubtraction-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9923C425752C51005498E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F9923C625752C51005498E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F9923CB25752C51005498E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F9923CD25752C56005498E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F9923D025752C56005498E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F9923D225752C56005498E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9923D725752C56005498E5 /* Part7-additionAndSubtraction-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Part7-additionAndSubtraction-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9923E225752C56005498E5 /* Part7-additionAndSubtraction-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Part7-additionAndSubtraction-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9923E625752C56005498E5 /* Part7_additionAndSubtraction_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Part7_additionAndSubtraction_UITests.swift; sourceTree = "<group>"; };
+		5F9923E825752C56005498E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9923F7257532F8005498E5 /* AdditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionViewController.swift; sourceTree = "<group>"; };
+		5F99240225753312005498E5 /* SubtractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F9923BE25752C51005498E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9923D425752C56005498E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9923DF25752C56005498E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F9923B825752C51005498E5 = {
+			isa = PBXGroup;
+			children = (
+				5F9923C325752C51005498E5 /* Part7-additionAndSubtraction- */,
+				5F9923E525752C56005498E5 /* Part7-additionAndSubtraction-UITests */,
+				5F9923C225752C51005498E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F9923C225752C51005498E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F9923C125752C51005498E5 /* Part7-additionAndSubtraction-.app */,
+				5F9923D725752C56005498E5 /* Part7-additionAndSubtraction-Tests.xctest */,
+				5F9923E225752C56005498E5 /* Part7-additionAndSubtraction-UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F9923C325752C51005498E5 /* Part7-additionAndSubtraction- */ = {
+			isa = PBXGroup;
+			children = (
+				5F9923C425752C51005498E5 /* AppDelegate.swift */,
+				5F9923C625752C51005498E5 /* SceneDelegate.swift */,
+				5F9923F7257532F8005498E5 /* AdditionViewController.swift */,
+				5F99240225753312005498E5 /* SubtractionViewController.swift */,
+				5F9923CA25752C51005498E5 /* Main.storyboard */,
+				5F9923CD25752C56005498E5 /* Assets.xcassets */,
+				5F9923CF25752C56005498E5 /* LaunchScreen.storyboard */,
+				5F9923D225752C56005498E5 /* Info.plist */,
+			);
+			path = "Part7-additionAndSubtraction-";
+			sourceTree = "<group>";
+		};
+		5F9923E525752C56005498E5 /* Part7-additionAndSubtraction-UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F9923E625752C56005498E5 /* Part7_additionAndSubtraction_UITests.swift */,
+				5F9923E825752C56005498E5 /* Info.plist */,
+			);
+			path = "Part7-additionAndSubtraction-UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F9923C025752C51005498E5 /* Part7-additionAndSubtraction- */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9923EB25752C56005498E5 /* Build configuration list for PBXNativeTarget "Part7-additionAndSubtraction-" */;
+			buildPhases = (
+				5F9923BD25752C51005498E5 /* Sources */,
+				5F9923BE25752C51005498E5 /* Frameworks */,
+				5F9923BF25752C51005498E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Part7-additionAndSubtraction-";
+			productName = "Part7-additionAndSubtraction-";
+			productReference = 5F9923C125752C51005498E5 /* Part7-additionAndSubtraction-.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F9923D625752C56005498E5 /* Part7-additionAndSubtraction-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9923EE25752C56005498E5 /* Build configuration list for PBXNativeTarget "Part7-additionAndSubtraction-Tests" */;
+			buildPhases = (
+				5F9923D325752C56005498E5 /* Sources */,
+				5F9923D425752C56005498E5 /* Frameworks */,
+				5F9923D525752C56005498E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F9923D925752C56005498E5 /* PBXTargetDependency */,
+			);
+			name = "Part7-additionAndSubtraction-Tests";
+			productName = "Part7-additionAndSubtraction-Tests";
+			productReference = 5F9923D725752C56005498E5 /* Part7-additionAndSubtraction-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F9923E125752C56005498E5 /* Part7-additionAndSubtraction-UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9923F125752C56005498E5 /* Build configuration list for PBXNativeTarget "Part7-additionAndSubtraction-UITests" */;
+			buildPhases = (
+				5F9923DE25752C56005498E5 /* Sources */,
+				5F9923DF25752C56005498E5 /* Frameworks */,
+				5F9923E025752C56005498E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F9923E425752C56005498E5 /* PBXTargetDependency */,
+			);
+			name = "Part7-additionAndSubtraction-UITests";
+			productName = "Part7-additionAndSubtraction-UITests";
+			productReference = 5F9923E225752C56005498E5 /* Part7-additionAndSubtraction-UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F9923B925752C51005498E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					5F9923C025752C51005498E5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					5F9923D625752C56005498E5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 5F9923C025752C51005498E5;
+					};
+					5F9923E125752C56005498E5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 5F9923C025752C51005498E5;
+					};
+				};
+			};
+			buildConfigurationList = 5F9923BC25752C51005498E5 /* Build configuration list for PBXProject "Part7-additionAndSubtraction-" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F9923B825752C51005498E5;
+			productRefGroup = 5F9923C225752C51005498E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F9923C025752C51005498E5 /* Part7-additionAndSubtraction- */,
+				5F9923D625752C56005498E5 /* Part7-additionAndSubtraction-Tests */,
+				5F9923E125752C56005498E5 /* Part7-additionAndSubtraction-UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F9923BF25752C51005498E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9923D125752C56005498E5 /* LaunchScreen.storyboard in Resources */,
+				5F9923CE25752C56005498E5 /* Assets.xcassets in Resources */,
+				5F9923CC25752C51005498E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9923D525752C56005498E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9923E025752C56005498E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F9923BD25752C51005498E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9923F8257532F8005498E5 /* AdditionViewController.swift in Sources */,
+				5F9923C525752C51005498E5 /* AppDelegate.swift in Sources */,
+				5F9923C725752C51005498E5 /* SceneDelegate.swift in Sources */,
+				5F99240325753312005498E5 /* SubtractionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9923D325752C56005498E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9923DE25752C56005498E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9923E725752C56005498E5 /* Part7_additionAndSubtraction_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F9923D925752C56005498E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F9923C025752C51005498E5 /* Part7-additionAndSubtraction- */;
+			targetProxy = 5F9923D825752C56005498E5 /* PBXContainerItemProxy */;
+		};
+		5F9923E425752C56005498E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F9923C025752C51005498E5 /* Part7-additionAndSubtraction- */;
+			targetProxy = 5F9923E325752C56005498E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F9923CA25752C51005498E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F9923CB25752C51005498E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F9923CF25752C56005498E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F9923D025752C56005498E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F9923E925752C56005498E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F9923EA25752C56005498E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F9923EC25752C56005498E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z4MKYS28;
+				INFOPLIST_FILE = "Part7-additionAndSubtraction-/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nonoka.Part7-additionAndSubtraction-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F9923ED25752C56005498E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z4MKYS28;
+				INFOPLIST_FILE = "Part7-additionAndSubtraction-/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nonoka.Part7-additionAndSubtraction-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F9923EF25752C56005498E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z4MKYS28;
+				INFOPLIST_FILE = "Part7-additionAndSubtraction-Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nonoka.Part7-additionAndSubtraction-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Part7-additionAndSubtraction-.app/Part7-additionAndSubtraction-";
+			};
+			name = Debug;
+		};
+		5F9923F025752C56005498E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z4MKYS28;
+				INFOPLIST_FILE = "Part7-additionAndSubtraction-Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nonoka.Part7-additionAndSubtraction-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Part7-additionAndSubtraction-.app/Part7-additionAndSubtraction-";
+			};
+			name = Release;
+		};
+		5F9923F225752C56005498E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z4MKYS28;
+				INFOPLIST_FILE = "Part7-additionAndSubtraction-UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nonoka.Part7-additionAndSubtraction-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Part7-additionAndSubtraction-";
+			};
+			name = Debug;
+		};
+		5F9923F325752C56005498E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z4MKYS28;
+				INFOPLIST_FILE = "Part7-additionAndSubtraction-UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nonoka.Part7-additionAndSubtraction-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Part7-additionAndSubtraction-";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F9923BC25752C51005498E5 /* Build configuration list for PBXProject "Part7-additionAndSubtraction-" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9923E925752C56005498E5 /* Debug */,
+				5F9923EA25752C56005498E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9923EB25752C56005498E5 /* Build configuration list for PBXNativeTarget "Part7-additionAndSubtraction-" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9923EC25752C56005498E5 /* Debug */,
+				5F9923ED25752C56005498E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9923EE25752C56005498E5 /* Build configuration list for PBXNativeTarget "Part7-additionAndSubtraction-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9923EF25752C56005498E5 /* Debug */,
+				5F9923F025752C56005498E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9923F125752C56005498E5 /* Build configuration list for PBXNativeTarget "Part7-additionAndSubtraction-UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9923F225752C56005498E5 /* Debug */,
+				5F9923F325752C56005498E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F9923B925752C51005498E5 /* Project object */;
+}
